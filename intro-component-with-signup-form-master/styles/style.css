@@ -9,7 +9,7 @@
 }
 
 html, body {
-  background: url("/images/bg-intro-desktop.png");
+  background: url("../images/bg-intro-desktop.png");
   background-color: #ff7a7a;
   width: 100%;
   height: 100%;
