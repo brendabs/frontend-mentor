@@ -8,4 +8,4 @@ Repositório criado para armazenar desafios da paltaforma [Frontend Mentor](http
 Página inicial contendo um formulário de cadastro utilizando HTML e CSS.
 
 - Challenge disponível [neste link](https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1).
-- Solução dispinível [neste link](https://brendabs.github.io/frontend-mentor/intro-component-with-signup-form-master/).
+- Solução disponível [neste link](https://brendabs.github.io/frontend-mentor/intro-component-with-signup-form-master/).
