@@ -1,0 +1,312 @@
+* {
+  font-family: Poppins;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  background: url("/images/bg-intro-desktop.png");
+  background-color: #ff7a7a;
+  width: 100%;
+  height: 100%;
+}
+
+div.register-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+@media all and (max-width: 425px) {
+  div.register-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+div.register-container div.register-description-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media all and (max-width: 425px) {
+  div.register-container div.register-description-wrapper {
+    margin-top: 50px;
+  }
+}
+
+@media all and (max-width: 414px) {
+  div.register-container div.register-description-wrapper {
+    margin-top: 200px;
+  }
+}
+
+@media all and (max-width: 360px) {
+  div.register-container div.register-description-wrapper {
+    margin-top: 300px;
+  }
+}
+
+div.register-container div.register-description-wrapper h1, div.register-container div.register-description-wrapper h4.register-description-text {
+  color: #FFFFFF;
+}
+
+@media all and (max-width: 425px) {
+  div.register-container div.register-description-wrapper h1, div.register-container div.register-description-wrapper h4.register-description-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+  }
+}
+
+div.register-container div.register-description-wrapper h1 {
+  font-weight: 700;
+  font-size: 50px;
+  width: 25vw;
+  margin-bottom: 28px;
+}
+
+@media all and (max-width: 1024px) {
+  div.register-container div.register-description-wrapper h1 {
+    font-size: 36px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  div.register-container div.register-description-wrapper h1 {
+    font-size: 32px;
+    width: 100%;
+    padding: 0px 28px 0px 28px;
+  }
+}
+
+@media all and (max-width: 540px) {
+  div.register-container div.register-description-wrapper h1 {
+    font-size: 28px;
+    text-align: initial;
+  }
+}
+
+@media all and (max-width: 425px) {
+  div.register-container div.register-description-wrapper h1 {
+    font-size: 28px;
+    width: 100%;
+    padding: 0px 28px 0px 28px;
+    text-align: center;
+  }
+}
+
+div.register-container div.register-description-wrapper h4 {
+  font-weight: 400;
+  font-size: 16px;
+  width: 30vw;
+}
+
+@media all and (max-width: 768px) {
+  div.register-container div.register-description-wrapper h4 {
+    width: 100%;
+    padding: 0px 28px 0px 28px;
+    text-align: justify;
+  }
+}
+
+@media all and (max-width: 540px) {
+  div.register-container div.register-description-wrapper h4 {
+    text-align: initial;
+  }
+}
+
+@media all and (max-width: 425px) {
+  div.register-container div.register-description-wrapper h4 {
+    text-align: center;
+    padding: 0px 28px 0px 28px;
+  }
+}
+
+div.register-container div.register-form-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 100px;
+  width: 30vw;
+}
+
+@media all and (max-width: 1024px) {
+  div.register-container div.register-form-wrapper {
+    width: 40vw;
+  }
+}
+
+@media all and (max-width: 768px) {
+  div.register-container div.register-form-wrapper {
+    width: 100%;
+    margin: 20px;
+  }
+}
+
+@media all and (max-width: 425px) {
+  div.register-container div.register-form-wrapper {
+    width: 100%;
+    padding: 0px 28px 0px 28px;
+    margin: 50px;
+  }
+}
+
+div.register-container div.register-form-wrapper button.register-form-try-button {
+  background-color: #6055a5;
+  color: #FFFFFF;
+  border-radius: 5px;
+  height: 6vh;
+  box-shadow: 1px 8px 0px 0px rgba(0, 0, 0, 0.24);
+  -webkit-box-shadow: 1px 8px 0px 0px rgba(0, 0, 0, 0.24);
+  -moz-box-shadow: 1px 8px 0px 0px rgba(0, 0, 0, 0.24);
+  cursor: pointer;
+}
+
+@media all and (max-width: 1024px) {
+  div.register-container div.register-form-wrapper button.register-form-try-button {
+    height: 4vh;
+  }
+}
+
+@media all and (max-width: 540px) {
+  div.register-container div.register-form-wrapper button.register-form-try-button {
+    height: 6vh;
+  }
+}
+
+@media all and (max-width: 425px) {
+  div.register-container div.register-form-wrapper button.register-form-try-button {
+    height: 8vh;
+  }
+}
+
+div.register-container div.register-form-wrapper button.register-form-try-button:hover {
+  background-color: rgba(96, 85, 165, 0.856);
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+div.register-container div.register-form-wrapper form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  margin-top: 20px;
+  box-shadow: 1px 8px 0px 0px rgba(0, 0, 0, 0.24);
+  -webkit-box-shadow: 1px 8px 0px 0px rgba(0, 0, 0, 0.24);
+  -moz-box-shadow: 1px 8px 0px 0px rgba(0, 0, 0, 0.24);
+  height: 45vh;
+  padding: 40px;
+}
+
+@media all and (max-width: 1024px) {
+  div.register-container div.register-form-wrapper form {
+    height: 100%;
+  }
+}
+
+@media all and (max-width: 415px) {
+  div.register-container div.register-form-wrapper form {
+    height: 100%;
+  }
+}
+
+div.register-container div.register-form-wrapper form input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  padding: 10px;
+  background-color: #FFFFFF;
+  font-weight: 700;
+  color: #3e3c49;
+  margin-bottom: 10px;
+  border: 1px solid #b9b6d3;
+  border-radius: 4px;
+}
+
+div.register-container div.register-form-wrapper form input:focus {
+  border: 1px solid rgba(62, 60, 73, 0.836);
+}
+
+div.register-container div.register-form-wrapper form input.register-form-trial-button {
+  border: none;
+  background-color: #38cc8c;
+  border-radius: 5px;
+  color: #FFFFFF;
+  font-size: 15px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 500;
+  box-shadow: 0px 5px 0px 0px rgba(48, 172, 121, 0.92);
+  -webkit-box-shadow: 0px 5px 0px 0px rgba(48, 172, 121, 0.92);
+  -moz-box-shadow: 0px 5px 0px 0px rgba(48, 172, 121, 0.92);
+}
+
+@media all and (max-width: 320px) {
+  div.register-container div.register-form-wrapper form input.register-form-trial-button {
+    font-size: 12px;
+  }
+}
+
+div.register-container div.register-form-wrapper form input.register-form-trial-button:hover {
+  background-color: rgba(56, 204, 140, 0.884);
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+div.register-container div.register-form-wrapper form span {
+  font-size: 12px;
+  font-weight: 600;
+  text-align: center;
+  color: #b9b6d3;
+  margin: 10px;
+}
+
+div.register-container div.register-form-wrapper form span a {
+  color: #ff7a7a;
+  text-decoration: none;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
