@@ -1,6 +1,6 @@
 ## Frontend Mentor Challenges
 
-Repositório criado para armazenar desafios da paltaforma [Frontend Mentor](https://www.frontendmentor.io/). O objetivo é aperfeiçoar minhas skills em HTML, CSS e Javascript resolvendo problemas do mundo real de desenvolvimento.
+Repositório criado para armazenar desafios da plataforma [Frontend Mentor](https://www.frontendmentor.io/). O objetivo é aperfeiçoar minhas skills em HTML, CSS e Javascript resolvendo problemas do mundo real de desenvolvimento.
 
 ### Challenge #1
 #### Intro component with sign-up form
